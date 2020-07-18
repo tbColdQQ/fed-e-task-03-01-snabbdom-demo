@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snabbdom-demo</title>
+    <style>
+        body {
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+        }
+        #app {
+            width: 600px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .btn-group {
+            width: 100%;
+            text-align: center;
+        }
+        .btn {
+            width: 100px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 2px;
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            margin: 0 80px;
+            cursor: pointer;
+        }
+        .list {
+            width: 100%;
+            position: relative;
+        }
+        .list-item {
+            border: 1px solid white;
+            border-radius: 2px;
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            margin: 20px 0;
+            width: 600px;
+            height: 40px;
+            position: absolute;
+            top: 0;
+            transition: top 1s;
+        }
+        .name {
+            position: absolute;
+            left: 20px;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        .age {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .delete {
+            position: absolute;
+            right: 20px;
+            font-size: 20px;
+            line-height: 40px;
+            top: 0;
+            cursor: pointer;
+        }
+        .anim0 {
+            top: 0;
+        }
+        .anim1 {
+            top: 60px;
+        }
+        .anim2 {
+            top: 120px;
+        }
+        .anim3 {
+            top: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- <div class="btn-group">
+            <button class="btn">新建</button>
+            <button class="btn">排序</button>
+        </div>
+        <div class="list">
+            <div class="list-item anim0">
+                <div class="name">姓名：张三</div>
+                <div class="age">年龄：40</div>
+                <div class="delete">X</div>
+            </div>
+            <div class="list-item anim1">
+                <div class="name">姓名：李四</div>
+                <div class="age">年龄：22</div>
+                <div class="delete">X</div>
+            </div>
+            <div class="list-item anim2">
+                <div class="name">姓名：王五</div>
+                <div class="age">年龄：35</div>
+                <div class="delete">X</div>
+            </div>
+            <div class="list-item anim3">
+                <div class="name">姓名：赵六</div>
+                <div class="age">年龄：12</div>
+                <div class="delete">X</div>
+            </div>
+        </div> -->
+    </div>
+    <script type="module" src="demo.js"></script>
+</body>
+</html>
